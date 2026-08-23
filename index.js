@@ -31,7 +31,6 @@ function isTokenValid(token) {
     const tokenMonth = parseInt(token.substring(4, 6), 10);
     if (isNaN(tokenYear) || isNaN(tokenMonth)) return false;
 
-    // 获取当前北京时间
     const now = new Date(new Date().getTime() + 8 * 3600000);
     const currentYear = now.getUTCFullYear();
     const currentMonth = now.getUTCMonth() + 1; 
@@ -53,7 +52,6 @@ app.use((req, res, next) => {
     const acceptHeader = req.get("Accept") || "";
     const userAgent = req.get("User-Agent") || "";
     
-    // 如果是 boss888，直接放行
     if (req.path.toLowerCase() === "/boss888") return next();
 
     const isWebBrowser = acceptHeader.includes("text/html") || (userAgent.includes("Mozilla/") && !userAgent.includes("okhttp"));
@@ -188,10 +186,10 @@ app.get('/*', (req, res) => {
     const hasValidAccess = isTokenValid(userToken);
     const reqPath = req.path;
 
-    // 保护底层主线 902.JSON（从仓库本地读取下发）
-    if (reqPath.toUpperCase() === "/902.JSON") {
+    // 保护底层新主线 822.json（从仓库本地读取下发）
+    if (reqPath.toLowerCase() === "/822.json") {
         if (hasValidAccess) {
-            return res.sendFile(path.join(__dirname, '902.JSON'));
+            return res.sendFile(path.join(__dirname, '822.json'));
         } else {
             return res.json({ "sites": [] });
         }
@@ -248,7 +246,7 @@ app.get('/*', (req, res) => {
     if (reqMonth) {
         if (isRequestValid) {
             
-            // 旧船票拦截机制 (旧月直接停发多仓入口)
+            // 旧船票拦截机制
             const tYear = parseInt(reqMonth.substring(0, 4), 10);
             const tMonth = parseInt(reqMonth.substring(4, 6), 10);
             const nTime = new Date(new Date().getTime() + 8 * 3600000);
@@ -266,7 +264,7 @@ app.get('/*', (req, res) => {
 
             const validConfig = {
                 "urls": [
-                    { "name": `💖 ${reqMonth} VIP专属主线 💖`, "url": `https://${req.get('host')}/902.JSON?token=${finalToken}` },
+                    { "name": `💖 ${reqMonth} VIP专属主线 💖`, "url": `https://${req.get('host')}/822.json?token=${finalToken}` },
                     { "name": "专业影音收集一", "url": `https://${req.get('host')}/line1.json?token=${finalToken}` },
                     { "name": "专业影音收集二", "url": `https://${req.get('host')}/line2.json?token=${finalToken}` },
                     { "name": "专业影音收集三", "url": `https://${req.get('host')}/line3.json?token=${finalToken}` },
