@@ -68,7 +68,7 @@ app.use((req, res, next) => {
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>MAX智能影音 - 专属私人接口配置</title>
+            <title>专业影音 - 专属私人接口配置</title>
             <style>
                 * { box-sizing: border-box; margin: 0; padding: 0; }
                 body {
@@ -96,7 +96,7 @@ app.use((req, res, next) => {
         <body>
         <div class="container">
             <div class="logo">🎬</div>
-            <h1>MAX 智能影音专属配置</h1>
+            <h1>专业影音专属配置</h1>
             <p class="subtitle">全网极速源 · 亚太全自动直连分发</p>
             <div class="url-card">
                 <span class="url-text" id="dynamicUrl">${currentUrl}</span>
@@ -137,9 +137,9 @@ app.get('/boss888', (req, res) => {
         return res.send(`
             <html><head><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
             <body style="background:#0a0a12;color:#fff;text-align:center;padding:20vh 20px;">
-                <h2>👑 MAX老板安全验证</h2>
+                <h2>👑 专业影音老板安全验证</h2>
                 <script>
-                    let p = prompt("请输入 MAX 核心控制台密码：");
+                    let p = prompt("请输入专业影音核心控制台密码：");
                     if(p) window.location.href = "/boss888?pwd=" + p;
                 </script>
             </body></html>
@@ -169,7 +169,7 @@ app.get('/boss888', (req, res) => {
     res.send(`
         <html><head><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
         <body style="background:#0a0a12;color:#fff;text-align:center;padding:30px 15px;font-family:sans-serif;">
-            <h2 style="margin-bottom:5px;">👑 MAX 影音发卡机 (亚太专线版)</h2>
+            <h2 style="margin-bottom:5px;">👑 专业影音发卡机 (亚太专线版)</h2>
             <p style="color:#8e8e9f;font-size:13px;margin-bottom:30px;">全自动加密版 · 动态生成未来10年</p>
             ${listHtml}
         </body></html>
@@ -257,7 +257,7 @@ app.get('/*', (req, res) => {
                     "urls": [
                         { "name": `⚠️ 此月份配置入口已永久关闭`, "url": "https://kyomomo.top/empty.json" },
                         { "name": "👉 已配置的老设备正常观看不受影响", "url": "https://kyomomo.top/empty.json" },
-                        { "name": "👉 新设备请联系老板获取当月专属", "url": "https://kyomomo.top/empty.json" }
+                        { "name": "👉 新设备请联系获取当月专属", "url": "https://kyomomo.top/empty.json" }
                     ]
                 });
             }
@@ -288,7 +288,7 @@ app.get('/*', (req, res) => {
             return res.json({
                 "urls": [
                     { "name": `⚠️ 您输入的授权配置不合法或已过期`, "url": "https://kyomomo.top/empty.json" },
-                    { "name": "👉 请联系微信获取专属授权码", "url": "https://kyomomo.top/empty.json" }
+                    { "name": "👉 请联系获取专属授权码", "url": "https://kyomomo.top/empty.json" }
                 ]
             });
         }
@@ -298,5 +298,5 @@ app.get('/*', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`MAX Server is running on port ${port}`);
+    console.log(`专业影音 Server is running on port ${port}`);
 });
