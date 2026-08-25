@@ -42,17 +42,64 @@
 {"key":"农民影视","name":"🚀农民┃影视","type":3,"api":"csp_Wwys","ext":"https://vip.wwgz.cn:5200"},
  { "key": "两个BT", "name": "🚀两个丨影视", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/两个BT.py" },
 {"key":"RenRen_JS","name":"🚀人人丨纯净JS","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js","ext":"https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/JS/分享双人.js"},
+ {
+      "key": "戒",
+      "name": "🚀视界┃影视",
+      "type": 3,
+      "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/jys.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },
+ {
+      "key": "py_6v",
+      "name": "🚀四影｜影视",
+      "type": 3,
+      "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/4Kvm.js",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
 
 { "key": "马猴影视", "name": "🚀马猴丨APP", "type": 3, "api": "csp_App3Q", "ext": { "host": "https://45.150.167.18:8000", "finger": "SF-A962FEC75DA28D7514F2A16580334272A78AC0A8429F10C94F47C1BAFC876E3F", "updateId": "43c1ef69-3748-aaeb-317f-c621c77653ee", "deviceBrand": "vivo", "deviceModel": "V2309A", "pkg": "com.damahou.tv", "sk": "SK-woniu-thanks", "ver": "1" } },
 { "key": "爱看剧", "name": "🚀看剧｜纯纯", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/AppToV5.py", "ext": "http://43.248.117.123:4680", "jar": "https://gitee.com/lujun189/ceshi/raw/master/1/jar/feimao.jar" },
 { "key": "葫芦", "name": "🚀葫芦｜纯纯", "type": 3, "api": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/get.js", "ext": { "host": "https://mobile-1251126973.cos.ap-guangzhou.myqcloud.com/maccos_config.txt", "key": "8R33VQSxzmCaHpEX", "init": "V122", "api": 2, "ua": "okhttp/3.10.0" }, "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0526/13/3c2fe19f3ae9dcf760356cb9e958ef48.jpg;md5;7c546ee0441d827c11541a81c5b98a7b" },
 {"key":"电影天堂","name":"🚀无广┃[采集]","type":1,"api":"http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/json/?ac=list","searchable":1,"quickSearch":0,"filterable":0,"changeable":0,"playUrl":"","categories":["短剧","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","香港剧","韩国剧","欧美剧","记录片","台湾剧","日本剧","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","动画片"]},
+ {
+      "key": "世界",
+      "name": "🚀世界丨APP",
+      "type": 3,
+      "api": "csp_AppGet",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "url": "https://appcms.4ksj.app",
+        "dataKey": "O3K6rYx75Q4xtiIE",
+        "dataIv": "O3K6rYx75Q4xtiIE"
+      }
+    },
 
-{ "key": "飞娱影视", "name": "🚀飞娱┃影视", "type": 3, "api": "csp_Feiyu" },
 
 {"key" : "枫叶","name" : "📹叶叶丨4K影视","type" : 3,"api" : "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/枫叶.py"},
 {"key": "裤佬枫叶4K","name": "📹枫叶丨4K","type": 3,"api": "https://dogpan.com/f/O7gjCv/枫叶4K.js","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"playable": 1},
 {"key": "山楂","name": "📹山楂丨4K","type": 3,"api": "https://dogpan.com/f/vgJxhA/山楂影视.py","searchable": 1,"quickSearch": 1,"filterable": 1,"order_num": 0,"changeable": 0},
+
+ {
+      "key": "星河",
+      "name": "📹星河┃4K",
+      "type": 3,
+      "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/get.js",
+      "ext": {
+        "host": "http://110.42.67.130:1226",
+        "key": "kj37zs29q22jk96t",
+        "init": "V122",
+        "api": 2,
+        "ua": "okhttp/3.10.0"
+      }
+    },
 
 {"key":"裤佬极影4K","name":"📹极影丨4K","type":3,"api":"https://dogpan.com/f/MjZntz/4K免扫码.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://cmsyun2.qijiyun.vip/api.php/app/"},
 {"key":"裤佬枫叶4K","name":"📹枫叶丨4K","type":3,"api":"https://dogpan.com/f/O7gjCv/枫叶4K.js","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"playable":1},
@@ -80,7 +127,7 @@
 {"key":"ryzycj","name":"🐢如意丨采集","type":1,"api":"https://cj.rycjapi.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1,"categories":["动作片","灾难片","爱情片","科幻片","战争片","喜剧片","恐怖片","预告片","剧情片","记录片","动画电影","电影解说","国产剧","欧美剧","香港剧","韩国剧","台湾剧","日本剧","海外剧","泰国剧","短剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","足球","篮球","网球","斯诺克","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫"]},
 {"key":"bfzycj","name":"🐢暴风丨采集","type":1,"api":"http://by.bfzyapi.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1,"categories":["理论片","纪录片","战争片","剧情片","爱情片","科幻片","恐怖片","喜剧片","动作片","动画片","预告片","重生民国","穿越年代","现代言情","反转爽文","女恋总裁","闪婚离婚","都市脑洞","古装仙侠","足球","篮球","网球","斯诺克","电影解说","欧美综艺","大陆综艺","港台综艺","日韩综艺","日韩动漫","欧美动漫","港台动漫","海外动漫","国产动漫","海外剧","泰国剧","香港剧","韩国剧","台湾剧","日本剧","欧美剧","国产剧"]},
 {"key":"jszycj","name":"🐢极速丨采集","type":1,"api":"https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json","searchable":1,"quickSearch":1,"filterable":1,"categories":["日剧","马泰剧","内地剧","欧美剧","香港剧","韩剧","台湾剧","恐怖片","动画片","剧情片","战争片","动作片","爱情片","喜剧片","科幻片","纪录片","灾难片","悬疑片","犯罪片","奇幻片","中国动漫","日本动漫","欧美动漫","大陆综艺","日韩综艺","港台综艺","欧美综艺","短剧","伦理片","体育赛事","预告片"]},
-
+{ "key": "飞娱影视", "name": "🚀飞娱┃影视", "type": 3, "api": "csp_Feiyu" },
 {
       "key": "douban_vod",
       "name": "🚀豆瓣｜影视",
