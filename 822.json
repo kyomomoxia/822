@@ -68,19 +68,7 @@
 { "key": "爱看剧", "name": "🚀看剧｜纯纯", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/AppToV5.py", "ext": "http://43.248.117.123:4680", "jar": "https://gitee.com/lujun189/ceshi/raw/master/1/jar/feimao.jar" },
 { "key": "葫芦", "name": "🚀葫芦｜纯纯", "type": 3, "api": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/lib/get.js", "ext": { "host": "https://mobile-1251126973.cos.ap-guangzhou.myqcloud.com/maccos_config.txt", "key": "8R33VQSxzmCaHpEX", "init": "V122", "api": 2, "ua": "okhttp/3.10.0" }, "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0526/13/3c2fe19f3ae9dcf760356cb9e958ef48.jpg;md5;7c546ee0441d827c11541a81c5b98a7b" },
 {"key":"电影天堂","name":"🚀无广┃[采集]","type":1,"api":"http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/json/?ac=list","searchable":1,"quickSearch":0,"filterable":0,"changeable":0,"playUrl":"","categories":["短剧","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","香港剧","韩国剧","欧美剧","记录片","台湾剧","日本剧","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","动画片"]},
- {
-      "key": "世界",
-      "name": "📹世界丨4K",
-      "type": 3,
-      "api": "csp_AppGet",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "url": "https://appcms.4ksj.app",
-        "dataKey": "O3K6rYx75Q4xtiIE",
-        "dataIv": "O3K6rYx75Q4xtiIE"
-      }
-    },
+
 
 
 {"key" : "枫叶","name" : "📹叶叶丨4K影视","type" : 3,"api" : "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/枫叶.py"},
