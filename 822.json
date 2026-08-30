@@ -6,13 +6,13 @@
 "lives":[
 {"name": "📺央视直播","type": 0,"playerType": 2,"url": "http://183.131.83.37:40782/屿风眠星辞雾听澜书禾念安知夏遇秋寻冬观月.txt"},
 {"name":"📺默默直播","type":0,"url":"https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/lemonTV/main/iptv-fe.m3u","playerType":2},
-
+{"name": "📺雨雨直播","type": 0,"url": "https://0701.tv1288.xyz/m3u"},
+{"name": "📺发发直播","type": 1,"url": "https://445569.pages.dev/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt"},
+{"name": "📺涛涛直播","type": 1,"url": "https://445569.pages.dev/https://raw.githubusercontent.com/taoBox2620/taoBox2620/refs/heads/main/logo1.png"},
 {"name":"📺Kimentanm","type":0,"url":"https://gh.927223.xyz/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u","playerType":2},
 {"name":"📺develop","type":0,"url":"https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt","playerType":2,"epg":"http://diyp5.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
 {"name": "📺地方直播(备用)","type": 0,"playerType": 2,"url": "http://47.120.41.246:8025/vip/jar/zb.php"},
-
-{"name":"📺日后TV直播","type":0,"url":"http://rihou.cc:555/gggg.nzk"},
-{"name":"📺轮播","type":0,"url":"https://sub.ottiptv.cc/yylunbo.m3u","playerType":2,"timeout":10,"ua":"okHttp/Mod-1.5.0.0"}
+{"name":"📺日后TV直播","type":0,"url":"http://rihou.cc:555/gggg.nzk"}
 ],
   "sites": [
     {"key":"豆瓣2","name":"💖专业影音💖八月流光✨","type":3,"api":"csp_Douban","searchable":0},
