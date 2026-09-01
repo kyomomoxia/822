@@ -15,7 +15,7 @@
     {"name": "📺日后TV直播", "type": 0, "url": "http://rihou.cc:555/gggg.nzk"}
   ],
   "sites": [
-    {"key": "豆瓣2", "name": "💖专业影音💖八月流光✨", "type": 3, "api": "csp_Douban", "searchable": 0},
+    {"key": "豆瓣2", "name": "💖专业影音💖九月知微🌹", "type": 3, "api": "csp_Douban", "searchable": 0},
     {"key": "移动_1", "name": "📹移动｜4K", "type": 3, "api": "csp_Yidong4K", "searchable": 1, "quickSearch": 1, "filterable": 1, "timeout": 60},
     {"key": "ReBo_PY", "name": "🚀热播丨PY官方", "type": 3, "api": "https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/py/热播APP.py", "searchable": 1, "quickSearch": 1, "changeable": 1, "filterable": 1, "timeout": 60},
     {"key": "热播影视", "name": "🚀热播｜影视", "type": 3, "api": "csp_AppRJ", "searchable": 1, "quickSearch": 1, "filterable": 0, "ext": {"url": "http://v.rbotv.cn"}},
