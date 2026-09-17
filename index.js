@@ -198,7 +198,7 @@ app.get('/*', (req, res) => {
     // 16路隐形弹射
     const routes = {
         "/line1.json": "http://fty.xxooo.cf/tv",
-        "/line2.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=3",
+        "/line2.json": "http://肥猫.net",
         "/line3.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=2",
         "/line4.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=4",
         "/line5.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=5",
