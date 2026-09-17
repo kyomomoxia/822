@@ -199,7 +199,7 @@ app.get('/*', (req, res) => {
     const routes = {
         "/line1.json": "http://fty.xxooo.cf/tv",
         "/line2.json": "http://肥猫.net",
-        "/line3.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=2",
+        "/line3.json": "http://tvbox.xn--4kq62z5rby2qupq9ub.top/",
         "/line4.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=4",
         "/line5.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=5",
         "/line6.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=6",
