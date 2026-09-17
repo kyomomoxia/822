@@ -46,6 +46,7 @@
     {"key": "jisu_m3u8", "name": "🚀极速｜M3U8", "type": 1, "api": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json", "searchable": 1, "quickSearch": 1, "filterable": 1},
     {"key": "专业影音采集", "name": "🚀最大｜影视", "type": 1, "api": "https://api.zuidapi.com/api.php/provide/vod/", "searchable": 1, "quickSearch": 1, "filterable": 1},
     {"key": "荐片", "name": "🚀荐片｜影视", "api": "csp_JianPian", "type": 3},
+    {"key": "4k","name": "🚀kk影视","type": 3,"api": "https://jsnz.pages.dev/f/af676592.py"},
     {"key": "裤佬葫芦影视_1", "name": "📹葫芦丨4K", "type": 3, "api": "https://dogpan.com/f/8qY6fY/葫芦影视.js", "ext": {"host": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/JS/maccos_config.txt", "key": "8R33VQSxzmCaHpEX", "init": "V122", "api": 2, "ua": "okhttp/3.10.0"}},
     {"key": "裤佬荐片JS_1", "name": "🚀见片丨速速", "type": 3, "api": "https://dogpan.com/f/oYJ7tv/荐片影视.js", "style": {"type": "rect", "ratio": 1.33}, "changeable": 1},
     {"key": "裤佬猎手PY_1", "name": "📹猎人丨4K", "api": "https://dogpan.com/f/AnOxfE/猎手影视.py", "filterable": 1, "quickSearch": 1, "searchable": 1, "type": 3},
