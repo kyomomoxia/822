@@ -5,6 +5,7 @@
   "warningText": "专业影音提示:\n😀接口长期维护 \n😀接口请勿传播",
   "lives": [
     {"name": "📺央视直播", "type": 0, "playerType": 2, "url": "http://183.131.83.37:40782/屿风眠星辞雾听澜书禾念安知夏遇秋寻冬观月.txt"},
+    {"name": "📺自定义直播", "type": 1, "url": "https://iptv-zb-zy.pages.dev/output/ipv4/result.m3u"},
     {"name": "📺涛涛直播", "type": 1, "url": "https://445569.pages.dev/https://raw.githubusercontent.com/taoBox2620/taoBox2620/refs/heads/main/logo1.png"},
     {"name": "📺默默直播", "type": 0, "url": "https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/lemonTV/main/iptv-fe.m3u", "playerType": 2},
     {"name": "📺雨雨直播", "type": 0, "url": "https://0701.tv1288.xyz/m3u"},
