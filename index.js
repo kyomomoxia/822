@@ -195,24 +195,14 @@ app.get('/*', (req, res) => {
         }
     }
 
-    // 16路隐形弹射
+    // 5路隐形弹射
     const routes = {
         "/line1.json": "http://www.饭太硬.cc/tv",
         "/line2.json": "http://肥猫.net",
         "/line3.json": "http://tvbox.xn--4kq62z5rby2qupq9ub.top/",
         "/line4.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=4",
-        "/line5.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=5",
-        "/line6.json": "http://www.饭太硬.net/tv",
-        "/line7.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=8",
-        "/line8.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=10",
-        "/line9.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=11",
-        "/line10.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=12",
-        "/line11.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=13",
-        "/line12.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=15",
-        "/line13.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=16",
-        "/line14.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=17",
-        "/line15.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=18",
-        "/line16.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=20"
+        "/line5.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=5"
+
     };
 
     if (routes[reqPath]) {
