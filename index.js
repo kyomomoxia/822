@@ -259,18 +259,8 @@ app.get('/*', (req, res) => {
                     { "name": "专业影音收集二", "url": `https://${req.get('host')}/line2.json?token=${finalToken}` },
                     { "name": "专业影音收集三", "url": `https://${req.get('host')}/line3.json?token=${finalToken}` },
                     { "name": "专业影音收集四", "url": `https://${req.get('host')}/line4.json?token=${finalToken}` },
-                    { "name": "专业影音收集五", "url": `https://${req.get('host')}/line5.json?token=${finalToken}` },
-                    { "name": "专业影音收集六", "url": `https://${req.get('host')}/line6.json?token=${finalToken}` },
-                    { "name": "专业影音收集七", "url": `https://${req.get('host')}/line7.json?token=${finalToken}` },
-                    { "name": "专业影音收集八", "url": `https://${req.get('host')}/line8.json?token=${finalToken}` },
-                    { "name": "专业影音收集九", "url": `https://${req.get('host')}/line9.json?token=${finalToken}` },
-                    { "name": "专业影音收集十", "url": `https://${req.get('host')}/line10.json?token=${finalToken}` },
-                    { "name": "专业影音收集十一", "url": `https://${req.get('host')}/line11.json?token=${finalToken}` },
-                    { "name": "专业影音收集十二", "url": `https://${req.get('host')}/line12.json?token=${finalToken}` },
-                    { "name": "专业影音收集十三", "url": `https://${req.get('host')}/line13.json?token=${finalToken}` },
-                    { "name": "专业影音收集十四", "url": `https://${req.get('host')}/line14.json?token=${finalToken}` },
-                    { "name": "专业影音收集十五", "url": `https://${req.get('host')}/line15.json?token=${finalToken}` },
-                    { "name": "专业影音收集十六", "url": `https://${req.get('host')}/line16.json?token=${finalToken}` }
+                    { "name": "专业影音收集五", "url": `https://${req.get('host')}/line5.json?token=${finalToken}` }
+                  
                 ]
             };
             return res.json(validConfig);
