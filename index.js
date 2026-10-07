@@ -198,7 +198,7 @@ app.get('/*', (req, res) => {
     // 5路隐形弹射
     const routes = {
         "/line1.json": "http://www.饭太硬.cc/tv",
-        "/line2.json": "http://肥猫.net",
+        "/line2.json": "https://9280.kstore.vip/newwex.json",
         "/line3.json": "http://tvbox.xn--4kq62z5rby2qupq9ub.top/",
         "/line4.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=4",
         "/line5.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=5"
