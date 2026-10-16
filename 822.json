@@ -66,7 +66,7 @@
     {"key": "蓝鸟", "name": "🍓蓝鸟｜APP", "type": 3, "api": "csp_AppQi", "searchable": 1, "changeable": 1, "ext": {"site": "https://lanyingjisu.oss-cn-wuhan-lr.aliyuncs.com/lyjszx.txt", "dataKey": "oW5UxZ5kWVr1DI69", "dataIv": "oW5UxZ5kWVr1DI69", "init": "initV122", "ua": "okhttp/3.10.0"}},
    
     {"key": "魔方", "name": "📹魔方｜4K", "type": 3, "api": "csp_AppGet", "searchable": 1, "changeable": 1, "ext": {"url": "https://www.douy32mf.top", "dataKey": "1234567887654321", "dataIv": "1234567887654321"}},
-    {"key": "茉莉", "name": "📹莫利｜4K", "type": 3, "api": "csp_AppGet", "searchable": 1, "changeable": 1, "ext": {"site": "https://allinadmin.oss-cn-hangzhou.aliyuncs.com/bk/9.txt", "dataKey": "88689667dce61725", "dataIv": "88689667dce61725"}},
+  
 
     {"key": "应该可以", "name": "📹可以4K", "type": 3, "api": "https://fastlink.cokey.xyz/f/AAvgsm/4K%E5%BD%B1%E8%A7%86.py"},
     {"key": "高清点播", "name": "📹清播4K", "type": 3, "api": "https://pan.29o.cn/down.php/323eba3848f29250c407a014113c784a.py"},
