@@ -4,7 +4,7 @@
   "spider": "https://ncstatic-file.clewm.net/rsrc/2026/0801/00/359c60089176c437e74e96d685b8a72e.jpg;md5;182f3ff054e1a255420840f83b553fe4",
   "warningText": "专业影音提示:\n😀接口长期维护 \n😀接口请勿传播",
   "lives": [
-    {"name": "📺涛涛直播", "type": 1, "url": "https://445569.pages.dev/https://raw.githubusercontent.com/taoBox2620/taoBox2620/refs/heads/main/logo1.png"},
+    {"name": "📺涛涛直播", "type": 1, "url": "https://gh-proxy.org/https://raw.githubusercontent.com/alantang1977/alan/main/proxy/mg.m3u"},
     {"name": "📺自定义直播", "type": 1, "url": "https://iptv-zb-zy.pages.dev/output/ipv4/result.m3u"},
     {"name": "📺果果直播","type": 3,"url": "https://tv.tmxk.kdns.fr/yplrnuc7","epg":"https://material.1989.click/epg.xml.gz","ua": "okhttp/3.8.1","timeout": 10,"playerType": 2},
  
