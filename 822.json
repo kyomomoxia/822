@@ -4,7 +4,7 @@
   "spider": "https://ncstatic-file.clewm.net/rsrc/2026/0801/00/359c60089176c437e74e96d685b8a72e.jpg;md5;182f3ff054e1a255420840f83b553fe4",
   "warningText": "专业影音提示:\n😀接口长期维护 \n😀接口请勿传播",
   "lives": [
-    {"name": "📺快直播", "type": 0, "url": "https://ghproxy.net/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u", "playerType": 1, "epg": "https://live.fanmingming.com/e.xml", "logo": "https://live.fanmingming.com/tv/{name}.png"},
+    {"name": "📺快直播", "type": 0, "url": "https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/lemonTV/main/iptv-fe.m3u", "playerType": 1, "epg": "https://live.fanmingming.com/e.xml", "logo": "https://live.fanmingming.com/tv/{name}.png"},
     {"name": "📺自定义直播", "type": 1, "url": "https://iptv-zb-zy.pages.dev/output/ipv4/result.m3u"},
     {"name": "📺划划直播","type": 0,"url": "https://pan.szfx.top/down.php/dcb0cc6a6935b5e62b2659eba6718471.txt","timeout": 10},
     {"name": "📺默默直播", "type": 0, "url": "https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/lemonTV/main/iptv-fe.m3u", "playerType": 2},
