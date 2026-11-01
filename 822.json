@@ -15,6 +15,46 @@
   ],
   "sites": [
     {"key": "豆瓣2", "name": "💖专业影音💖十月揽星⭐", "type": 3, "api": "csp_Douban", "searchable": 0},
+        {
+      "key": "gh_py_huayi",
+      "name": "📹华谊｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/py/华谊影视.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+       {
+      "key": "gh_py_ncat",
+      "name": "🐍网飞猫｜PY免依赖",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/py/Ncat.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": 1
+    },
+   {
+      "key": "gh_py_hongguo",
+      "name": "🐍红果短剧｜PY免依赖",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/qist/tvbox/master/py/红果短剧.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "gh_py_xpg",
+      "name": "📹小苹果｜4K影视",
+      "type": 3,
+      "api": "https://wget.la/https://raw.githubusercontent.com/maoystv/6/main/PY/分享者小苹果.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
     {"key": "移动_1", "name": "📹移动｜4K", "type": 3, "api": "csp_Yidong4K", "searchable": 1, "quickSearch": 1, "filterable": 1, "timeout": 60},
     {"key": "热播影视", "name": "🚀热播｜影视", "type": 3, "api": "csp_AppRJ", "searchable": 1, "quickSearch": 1, "filterable": 0, "ext": {"url": "http://v.rbotv.cn"}},
     {"key": "瓜子影视", "name": "🚀瓜子｜影视", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/GZYS.py", "changeable": 1},
