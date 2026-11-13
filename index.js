@@ -3,6 +3,9 @@ const path = require('path');
 const app = express();
 const port = process.env.PORT || 3000;
 
+// 开启代理信任，确保在 Vercel 边缘节点下正确识别 HTTPS
+app.set('trust proxy', true);
+
 // =================================================================
 // 👑 【老板核心机密区】
 // =================================================================
@@ -46,6 +49,18 @@ function isTokenValid(token) {
 }
 
 // =================================================================
+// 🛡️ 全局防运营商缓存与防劫持安全响应头
+// =================================================================
+app.use((req, res, next) => {
+    res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
+    res.setHeader('Pragma', 'no-cache');
+    res.setHeader('Expires', '0');
+    res.setHeader('Strict-Transport-Security', 'max-age=31536000; includeSubDomains');
+    res.setHeader('X-Content-Type-Options', 'nosniff');
+    next();
+});
+
+// =================================================================
 // 🖥️ 核心拦截器：浏览器拦截与引导网页
 // =================================================================
 app.use((req, res, next) => {
@@ -57,9 +72,10 @@ app.use((req, res, next) => {
     const isWebBrowser = acceptHeader.includes("text/html") || (userAgent.includes("Mozilla/") && !userAgent.includes("okhttp"));
 
     if (isWebBrowser) {
-        let currentUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
+        // 强制使用 https:// 生成展示与复制链接，彻底阻断明文劫持
+        let currentUrl = 'https://' + req.get('host') + req.originalUrl;
         if (!currentUrl.toLowerCase().includes('.json')) {
-            currentUrl = req.protocol + '://' + req.get('host') + "/index.json"; 
+            currentUrl = 'https://' + req.get('host') + "/index.json"; 
         }
 
         const html = `
@@ -104,20 +120,35 @@ app.use((req, res, next) => {
             </div>
             <div class="steps">
                 <b>💡 配置指南：</b><br>
-                1. 点击上方按钮，复制您的<b>专属配置链接</b>。<br>
+                1. 点击上方按钮，复制您的<b>专属加密配置链接</b>。<br>
                 2. 打开电视端（影视仓 / TVBox 等）。<br>
-                3. 进入 <b>设置 -> 配置地址</b>，粘贴并确定即可。
+                3. 进入 <b>设置 -> 配置地址</b>，粘贴并确定即可。<br>
+                4. <b>防宽带拦截提示</b>：若个别地区移动宽带无法加载，请在软件 <b>设置 -> 安全DNS(DoH)</b> 中选择<b>腾讯</b>或<b>阿里</b>即可秒开。
             </div>
         </div>
         <script>
             function doCopy() {
                 const text = document.getElementById('dynamicUrl').innerText;
                 const btn = document.getElementById('copyBtn');
-                navigator.clipboard.writeText(text).then(() => {
+                const showSuccess = () => {
                     btn.innerText = "✅ 复制成功";
                     btn.style.background = "#34c759";
                     setTimeout(() => { btn.innerText = "一键复制接口"; btn.style.background = ""; }, 2500);
-                });
+                };
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(text).then(showSuccess).catch(() => fallbackCopy(text, showSuccess));
+                } else {
+                    fallbackCopy(text, showSuccess);
+                }
+            }
+            function fallbackCopy(text, callback) {
+                const input = document.createElement('textarea');
+                input.value = text;
+                document.body.appendChild(input);
+                input.select();
+                document.execCommand('copy');
+                document.body.removeChild(input);
+                callback();
             }
         </script>
         </body>
@@ -202,7 +233,6 @@ app.get('/*', (req, res) => {
         "/line3.json": "http://tvbox.xn--4kq62z5rby2qupq9ub.top/",
         "/line4.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=4",
         "/line5.json": "https://xn--ohqo134kjk7c.v.nxog.top/apitv.php?id=5"
-
     };
 
     if (routes[reqPath]) {
@@ -260,7 +290,6 @@ app.get('/*', (req, res) => {
                     { "name": "专业影音收集三", "url": `https://${req.get('host')}/line3.json?token=${finalToken}` },
                     { "name": "专业影音收集四", "url": `https://${req.get('host')}/line4.json?token=${finalToken}` },
                     { "name": "专业影音收集五", "url": `https://${req.get('host')}/line5.json?token=${finalToken}` }
-                  
                 ]
             };
             return res.json(validConfig);
